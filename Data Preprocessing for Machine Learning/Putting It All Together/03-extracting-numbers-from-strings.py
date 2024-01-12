@@ -9,4 +9,4 @@ def return_minutes(time_string):
 ufo["minutes"] = ufo["length_of_time"].apply(return_minutes)
 
 # Take a look at the head of both of the columns
-print(ufo[['length_of_time']].head())
+print(ufo[['length_of_time', 'minutes']].head())
