@@ -1,5 +1,5 @@
 # Make a list of features to drop
-to_drop = ['city', 'country', 'lat', 'long', 'state']
+to_drop = ["city", "country", "date", "desc", "lat", "length_of_time", "long", "minutes", "recorded", "seconds", "state"]
 
 # Drop those features
 ufo_dropped = ufo.drop(to_drop, axis=1)
